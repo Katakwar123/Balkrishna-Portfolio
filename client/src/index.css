@@ -4,13 +4,13 @@
 
 /* Custom CSS Variables */
 :root {
-  --primary: #ff6b9d;
-  --secondary: #c44569;
-  --accent: #a8e6cf;
-  --background: #fff9f0;
+  --primary: #0f766e;
+  --secondary: #134e4a;
+  --accent: #7dd3fc;
+  --background: #f1f5f9;
   --card: #ffffff;
-  --text: #2c3e50;
-  --light-text: #6c757d;
+  --text: #0f172a;
+  --light-text: #64748b;
 }
 
 /* Base Styles */
@@ -80,7 +80,7 @@ section {
 
 .btn-primary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 10px 20px rgba(255, 107, 157, 0.3);
+  box-shadow: 0 10px 20px rgba(15, 118, 110, 0.25);
 }
 
 /* Card Hover Effect */
@@ -163,5 +163,5 @@ section {
 }
 
 .bg-gradient-primary {
-  background: linear-gradient(135deg, #ff6b9d 0%, #c44569 100%);
+  background: linear-gradient(135deg, #0f766e 0%, #134e4a 100%);
 }

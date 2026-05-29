@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail } from 'lucide-react';
+import { Github, Instagram, Linkedin, Mail } from 'lucide-react';
 import { personalInfo } from '../../data/portfolioData';
 
 const Footer = () => {
@@ -28,6 +28,15 @@ const Footer = () => {
             className="p-2 rounded-full bg-white/10 hover:bg-primary transition-colors"
           >
             <Linkedin size={20} />
+          </a>
+          <a
+            href={personalInfo.links.instagram}
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Instagram"
+            className="p-2 rounded-full bg-white/10 hover:bg-primary transition-colors"
+          >
+            <Instagram size={20} />
           </a>
           <a
             href={`mailto:${personalInfo.email}`}

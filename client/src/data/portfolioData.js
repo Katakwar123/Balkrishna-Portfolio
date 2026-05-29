@@ -11,8 +11,10 @@ export const personalInfo = {
   links: {
     github: 'https://github.com/Katakwar123',
     linkedin: 'https://www.linkedin.com/in/balkrishna-katakwar-395628227/',
+    instagram: 'https://www.instagram.com/_balkrishna_17/',
   },
 
+  profileImage: '/images/profile/balkrishna-profile.jpeg',
   resumePath: '/resume/Balkrishna_Katakwar_Resume_v2.pdf',
 };
 
@@ -255,6 +257,11 @@ export const socialLinks = [
     name: 'LinkedIn',
     url: 'https://www.linkedin.com/in/balkrishna-katakwar-395628227/',
     icon: 'Linkedin',
+  },
+  {
+    name: 'Instagram',
+    url: 'https://www.instagram.com/_balkrishna_17/',
+    icon: 'Instagram',
   },
   {
     name: 'Email',

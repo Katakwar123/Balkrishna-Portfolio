@@ -4,13 +4,13 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: '#FF6B9D',
-        secondary: '#C44569',
-        accent: '#A8E6CF',
-        background: '#FFF9F0',
+        primary: '#0F766E',
+        secondary: '#134E4A',
+        accent: '#7DD3FC',
+        background: '#F1F5F9',
         card: '#FFFFFF',
-        text: '#2C3E50',
-        lightText: '#6C757D',
+        text: '#0F172A',
+        lightText: '#64748B',
       },
       fontFamily: {
         sans: ['Inter', 'sans-serif'],
