@@ -271,8 +271,7 @@ export const socialLinks = [
 ];
 
 export const heroConfig = {
-  backgroundImage:
-    'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=2070&auto=format&fit=crop',
+  backgroundImage: '/images/profile/hero-background.jpeg',
   greeting: "Hello, I'm",
   ctaButtons: [
     {

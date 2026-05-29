@@ -13,14 +13,15 @@ const Hero = () => {
         <img
           src={heroConfig.backgroundImage}
           alt=""
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover object-[62%_42%]"
         />
-        <div className="absolute inset-0 bg-text/70" />
+        <div className="absolute inset-0 bg-gradient-to-r from-text/90 via-text/70 to-text/20" />
+        <div className="absolute inset-0 bg-text/25" />
       </div>
 
       <div className="container-custom relative z-10 px-4 md:px-8 lg:px-16 text-white">
-        <div className="grid min-h-[calc(100vh-4rem)] grid-cols-1 lg:grid-cols-[1.05fr_0.95fr] gap-12 items-center py-16">
-          <div>
+        <div className="min-h-[calc(100vh-4rem)] flex items-center py-16">
+          <div className="max-w-3xl">
             <motion.p
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -106,22 +107,6 @@ const Hero = () => {
               </a>
             </motion.div>
           </div>
-
-          <motion.div
-            initial={{ opacity: 0, scale: 0.94 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ delay: 0.25, duration: 0.6 }}
-            className="mx-auto w-full max-w-sm lg:max-w-md"
-          >
-            <div className="relative aspect-[4/5] overflow-hidden rounded-3xl border border-white/20 bg-white/10 shadow-2xl shadow-black/40">
-              <img
-                src={personalInfo.profileImage}
-                alt={personalInfo.name}
-                className="h-full w-full object-cover object-[50%_35%]"
-              />
-              <div className="absolute inset-0 ring-1 ring-inset ring-white/20" />
-            </div>
-          </motion.div>
         </div>
       </div>
 
