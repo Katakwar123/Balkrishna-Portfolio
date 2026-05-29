@@ -6,7 +6,7 @@ export const personalInfo = {
   email: 'balkrishnakatkwar123@gmail.com',
   phone: '+91 7389172739',
   location: 'Korba, Chhattisgarh, India',
-  bio: 'Motivated Frontend Developer, ML enthusiast, and Generative AI enthusiast pursuing B.Tech in Computer Science. I have hands-on experience with React, JavaScript, Python, data analysis, and machine learning projects, and I enjoy building responsive user interfaces, practical web applications, and data-driven tools that turn ideas into useful software.',
+  bio: "A Computer Science engineer with hands-on experience in full stack development, machine learning, and data analysis. I've shipped real features during internships, built AI-powered tools, and turned complex datasets into meaningful dashboards. I write clean frontend code, build reliable backends, and know my way around ML pipelines. Currently open to opportunities in both tech and sales roles where I can bring technical depth and a results-driven mindset to the table.",
 
   links: {
     github: 'https://github.com/Katakwar123',
