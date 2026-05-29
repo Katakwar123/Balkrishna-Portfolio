@@ -3,7 +3,7 @@ import { personalInfo } from '../../data/portfolioData';
 
 const Footer = () => {
   return (
-    <footer className="bg-text text-white border-t border-primary/10 py-10 px-4 md:px-8 lg:px-16">
+    <footer className="portfolio-footer border-t border-primary/10 py-10 px-4 md:px-8 lg:px-16">
       <div className="container-custom flex flex-col md:flex-row items-center justify-between gap-6">
         <div className="text-center md:text-left">
           <p className="font-display font-bold text-xl">{personalInfo.name}</p>

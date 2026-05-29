@@ -12,6 +12,10 @@
   --text: #0f172a;
   --light-text: #64748b;
   --nav-bg: rgba(255, 255, 255, 0.92);
+  --footer-bg: #0f172a;
+  --hero-overlay-strong: rgba(15, 23, 42, 0.95);
+  --hero-overlay-mid: rgba(15, 23, 42, 0.7);
+  --hero-overlay-soft: rgba(15, 23, 42, 0.2);
   --section-white: #ffffff;
   --soft-border: rgba(15, 118, 110, 0.15);
   --input-bg: #ffffff;
@@ -27,6 +31,10 @@
   --text: #e5e7eb;
   --light-text: #94a3b8;
   --nav-bg: rgba(2, 6, 23, 0.96);
+  --footer-bg: #020617;
+  --hero-overlay-strong: rgba(2, 6, 23, 0.95);
+  --hero-overlay-mid: rgba(2, 6, 23, 0.72);
+  --hero-overlay-soft: rgba(2, 6, 23, 0.26);
   --section-white: #111827;
   --soft-border: rgba(45, 212, 191, 0.18);
   --input-bg: #0f172a;
@@ -55,10 +63,35 @@ body {
     color 0.25s ease;
 }
 
+.App,
+main {
+  min-height: 100vh;
+  background: var(--background);
+  color: var(--text);
+}
+
 .portfolio-nav {
   background: var(--nav-bg);
   border-color: var(--soft-border);
   box-shadow: 0 10px 30px rgba(2, 6, 23, 0.12);
+}
+
+.portfolio-footer {
+  background: var(--footer-bg);
+  color: #ffffff;
+}
+
+.hero-overlay {
+  background: linear-gradient(
+    to right,
+    var(--hero-overlay-strong),
+    var(--hero-overlay-mid),
+    var(--hero-overlay-soft)
+  );
+}
+
+.hero-scrim {
+  background: rgba(2, 6, 23, 0.22);
 }
 
 [data-theme='dark'] .border-primary\/10 {
@@ -82,6 +115,58 @@ body {
 [data-theme='dark'] .portfolio-nav a,
 [data-theme='dark'] .portfolio-nav button {
   color: var(--text);
+}
+
+[data-theme='dark'] body,
+[data-theme='dark'] .App,
+[data-theme='dark'] main {
+  background: var(--background);
+  color: var(--text);
+}
+
+[data-theme='dark'] section:not(#home) {
+  background: var(--background) !important;
+  color: var(--text);
+}
+
+[data-theme='dark'] .card,
+[data-theme='dark'] form.card,
+[data-theme='dark'] .card[class~='bg-background'],
+[data-theme='dark'] .card[class~='bg-card'],
+[data-theme='dark'] .card-hover,
+[data-theme='dark'] [class~='bg-card'] {
+  background: var(--card) !important;
+  color: var(--text);
+  border: 1px solid var(--soft-border);
+}
+
+[data-theme='dark'] [class~='bg-background'] {
+  background-color: var(--background) !important;
+}
+
+[data-theme='dark'] .card .bg-background,
+[data-theme='dark'] a[class~='bg-background'],
+[data-theme='dark'] div[class~='bg-background'][class~='rounded-xl'] {
+  background-color: rgba(15, 23, 42, 0.82) !important;
+  border: 1px solid var(--soft-border);
+}
+
+[data-theme='dark'] [class~='bg-accent/20'],
+[data-theme='dark'] [class~='bg-primary/10'] {
+  background-color: rgba(45, 212, 191, 0.12) !important;
+}
+
+[data-theme='dark'] .text-text {
+  color: var(--text) !important;
+}
+
+[data-theme='dark'] .text-lightText {
+  color: var(--light-text) !important;
+}
+
+[data-theme='dark'] .portfolio-footer .text-white\/70,
+[data-theme='dark'] .portfolio-footer .text-white\/90 {
+  color: rgba(255, 255, 255, 0.78) !important;
 }
 
 /* Smooth scrolling for sections */
@@ -215,5 +300,5 @@ section {
 }
 
 .bg-gradient-primary {
-  background: linear-gradient(135deg, #0f766e 0%, #134e4a 100%);
+  background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
 }

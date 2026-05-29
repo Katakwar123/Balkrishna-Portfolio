@@ -15,8 +15,8 @@ const Hero = () => {
           alt=""
           className="w-full h-full object-cover object-[72%_42%] md:object-[68%_42%]"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-text/95 via-text/70 to-text/10" />
-        <div className="absolute inset-0 bg-text/20" />
+        <div className="hero-overlay absolute inset-0" />
+        <div className="hero-scrim absolute inset-0" />
       </div>
 
       <div className="relative z-10 w-full px-4 sm:px-6 md:px-10 lg:px-14 text-white">
