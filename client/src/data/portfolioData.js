@@ -1,12 +1,12 @@
 // Portfolio data extracted from resume and additional info
 export const personalInfo = {
   name: 'Balkrishna Katakwar',
-  title: 'Frontend Developer & ML Enthusiast',
+  title: 'Frontend Developer, ML & Generative AI Enthusiast',
   subtitle: 'B.Tech Computer Science Student',
   email: 'balkrishnakatkwar123@gmail.com',
   phone: '+91 7389172739',
   location: 'Korba, Chhattisgarh, India',
-  bio: 'Motivated Frontend Developer and B.Tech Computer Science student with hands-on experience in React, JavaScript, Python, data analysis, and machine learning projects. I enjoy building responsive user interfaces, practical web applications, and data-driven tools that turn ideas into useful software.',
+  bio: 'Motivated Frontend Developer, ML enthusiast, and Generative AI enthusiast pursuing B.Tech in Computer Science. I have hands-on experience with React, JavaScript, Python, data analysis, and machine learning projects, and I enjoy building responsive user interfaces, practical web applications, and data-driven tools that turn ideas into useful software.',
 
   links: {
     github: 'https://github.com/Katakwar123',
