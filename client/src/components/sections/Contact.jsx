@@ -53,7 +53,7 @@ const Contact = () => {
   };
 
   return (
-    <section id='contact' className='section-padding bg-white'>
+    <section id='contact' className='section-padding bg-card'>
       <div className='container-custom'>
         <SectionTitle
           title='Get In Touch'
@@ -148,7 +148,7 @@ const Contact = () => {
                     value={formData.name}
                     onChange={handleChange}
                     required
-                    className='w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all'
+                    className='form-field w-full px-4 py-3 rounded-xl border focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all'
                     placeholder='John Doe'
                   />
                 </div>
@@ -167,7 +167,7 @@ const Contact = () => {
                     value={formData.email}
                     onChange={handleChange}
                     required
-                    className='w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all'
+                    className='form-field w-full px-4 py-3 rounded-xl border focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all'
                     placeholder='john@example.com'
                   />
                 </div>
@@ -186,7 +186,7 @@ const Contact = () => {
                     value={formData.subject}
                     onChange={handleChange}
                     required
-                    className='w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all'
+                    className='form-field w-full px-4 py-3 rounded-xl border focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all'
                     placeholder='Project Inquiry'
                   />
                 </div>
@@ -205,7 +205,7 @@ const Contact = () => {
                     onChange={handleChange}
                     required
                     rows={6}
-                    className='w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all resize-none'
+                    className='form-field w-full px-4 py-3 rounded-xl border focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all resize-none'
                     placeholder='Tell me about your project...'
                   />
                 </div>

@@ -23,7 +23,7 @@ const Experience = () => {
               <FadeIn key={exp.id} delay={index * 0.1}>
                 <motion.div
                   whileHover={{ x: 10 }}
-                  className="card bg-white relative pl-8 border-l-4 border-primary"
+                  className="card bg-card relative pl-8 border-l-4 border-primary"
                 >
                   {/* Timeline Dot */}
                   <div className="absolute -left-3 top-6 w-6 h-6 bg-primary rounded-full border-4 border-background" />
@@ -95,7 +95,7 @@ const Experience = () => {
               <FadeIn key={cert.id} delay={index * 0.1}>
                 <motion.div
                   whileHover={{ y: -5 }}
-                  className="card bg-white text-center"
+                  className="card bg-card text-center"
                 >
                   <div className="w-16 h-16 bg-gradient-primary rounded-full flex items-center justify-center mx-auto mb-4">
                     <Briefcase className="text-white" size={28} />

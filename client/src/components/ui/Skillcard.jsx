@@ -11,7 +11,7 @@ const SkillCard = ({ category, items, icon, index }) => {
       viewport={{ once: true }}
       transition={{ delay: index * 0.1 }}
       whileHover={{ y: -5 }}
-      className="card card-hover bg-white group"
+      className="card card-hover bg-card group"
     >
       <div className="flex items-start gap-4">
         <div className="p-3 bg-gradient-primary rounded-xl group-hover:scale-110 transition-transform">

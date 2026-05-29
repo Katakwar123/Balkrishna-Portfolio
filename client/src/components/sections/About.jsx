@@ -5,7 +5,7 @@ import SectionTitle from '../ui/SectionTitle';
 
 const About = () => {
   return (
-    <section id="about" className="section-padding bg-white">
+    <section id="about" className="section-padding bg-card">
       <div className="container-custom">
         <SectionTitle
           title="About Me"

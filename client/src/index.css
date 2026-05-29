@@ -14,6 +14,8 @@
   --nav-bg: rgba(255, 255, 255, 0.92);
   --section-white: #ffffff;
   --soft-border: rgba(15, 118, 110, 0.15);
+  --input-bg: #ffffff;
+  --input-border: #cbd5e1;
 }
 
 [data-theme='dark'] {
@@ -24,9 +26,11 @@
   --card: #111827;
   --text: #e5e7eb;
   --light-text: #94a3b8;
-  --nav-bg: rgba(15, 23, 42, 0.92);
+  --nav-bg: rgba(2, 6, 23, 0.96);
   --section-white: #111827;
   --soft-border: rgba(45, 212, 191, 0.18);
+  --input-bg: #0f172a;
+  --input-border: #334155;
 }
 
 /* Base Styles */
@@ -54,10 +58,7 @@ body {
 .portfolio-nav {
   background: var(--nav-bg);
   border-color: var(--soft-border);
-}
-
-[data-theme='dark'] .bg-white {
-  background-color: var(--section-white);
+  box-shadow: 0 10px 30px rgba(2, 6, 23, 0.12);
 }
 
 [data-theme='dark'] .border-primary\/10 {
@@ -66,6 +67,21 @@ body {
 
 [data-theme='dark'] .shadow-lg {
   box-shadow: 0 18px 40px rgba(0, 0, 0, 0.25);
+}
+
+.form-field {
+  background: var(--input-bg);
+  border-color: var(--input-border);
+  color: var(--text);
+}
+
+.form-field::placeholder {
+  color: var(--light-text);
+}
+
+[data-theme='dark'] .portfolio-nav a,
+[data-theme='dark'] .portfolio-nav button {
+  color: var(--text);
 }
 
 /* Smooth scrolling for sections */

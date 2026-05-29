@@ -4,7 +4,7 @@ import ProjectCard from '../ui/ProjectCard';
 
 const Projects = () => {
   return (
-    <section id="projects" className="section-padding bg-white">
+    <section id="projects" className="section-padding bg-card">
       <div className="container-custom">
         <SectionTitle
           title="Featured Projects"
