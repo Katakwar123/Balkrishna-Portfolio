@@ -13,15 +13,15 @@ const Hero = () => {
         <img
           src={heroConfig.backgroundImage}
           alt=""
-          className="w-full h-full object-cover object-[62%_42%]"
+          className="w-full h-full object-cover object-[72%_42%] md:object-[68%_42%]"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-text/90 via-text/70 to-text/20" />
-        <div className="absolute inset-0 bg-text/25" />
+        <div className="absolute inset-0 bg-gradient-to-r from-text/95 via-text/70 to-text/10" />
+        <div className="absolute inset-0 bg-text/20" />
       </div>
 
-      <div className="container-custom relative z-10 px-4 md:px-8 lg:px-16 text-white">
+      <div className="relative z-10 w-full px-4 sm:px-6 md:px-10 lg:px-14 text-white">
         <div className="min-h-[calc(100vh-4rem)] flex items-center py-16">
-          <div className="max-w-3xl">
+          <div className="w-full max-w-xl lg:max-w-lg">
             <motion.p
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -34,7 +34,7 @@ const Hero = () => {
               initial={{ opacity: 0, y: 24 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.1 }}
-              className="text-5xl md:text-7xl font-display font-bold mb-5 max-w-4xl"
+              className="text-4xl md:text-6xl font-display font-bold mb-5"
             >
               {personalInfo.name}
             </motion.h1>
