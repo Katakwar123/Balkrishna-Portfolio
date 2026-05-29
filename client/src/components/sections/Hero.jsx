@@ -13,7 +13,7 @@ const Hero = () => {
         <img
           src={heroConfig.backgroundImage}
           alt=""
-          className="w-full h-full object-cover object-[72%_42%] md:object-[68%_42%]"
+          className="hero-photo w-full h-full object-cover object-[72%_42%] md:object-[68%_42%]"
         />
         <div className="hero-overlay absolute inset-0" />
         <div className="hero-scrim absolute inset-0" />
