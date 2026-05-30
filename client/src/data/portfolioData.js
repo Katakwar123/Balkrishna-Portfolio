@@ -134,7 +134,8 @@ export const projects = [
     ],
     image:
       'https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=600&fit=crop',
-    github: 'https://github.com/Katakwar123/HR-Performance-and-Recruitment-System',
+    github:
+      'https://github.com/Katakwar123/HR-Performance-and-Recruitment-System',
     demo: null,
     category: 'Web App',
   },
@@ -208,31 +209,10 @@ export const projects = [
 export const certifications = [
   {
     id: 1,
-    name: 'Machine Learning',
-    issuer: 'Amity University',
-    date: '2024',
-    credentialUrl: null,
-  },
-  {
-    id: 2,
-    name: 'Power BI',
-    issuer: 'Microsoft Learn',
-    date: '2024',
-    credentialUrl: null,
-  },
-  {
-    id: 3,
-    name: 'RPA (Robotic Process Automation)',
-    issuer: 'UiPath Academy',
-    date: '2024',
-    credentialUrl: null,
-  },
-  {
-    id: 4,
-    name: 'Full Stack Development',
-    issuer: 'Self-paced Learning',
-    date: '2024',
-    credentialUrl: null,
+    name: 'Machine Learning with Python (basic to advanced)',
+    issuer: 'Udemy',
+    date: 'Nov. 30, 2023',
+    credentialUrl: 'https://ude.my/UC-51cb05ae-0ddf-4b1a-afff-f1f81bcc5611',
   },
 ];
 
